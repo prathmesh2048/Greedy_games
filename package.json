@@ -1,0 +1,22 @@
+{
+  "name": "backend-api",
+  "version": "1.0.0",
+  "description": "assignment for greedy games",
+  "main": "server.js",
+  "scripts": {
+    "test": "npm start",
+    "start": "node server.js",
+    "run": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "none"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "express-async-handler": "^1.2.0",
+    "nodemon": "^2.0.22"
+  }
+}
